@@ -1,4 +1,4 @@
-POST https://part3-phonebook-backend-w2xe.onrender.com/api/persons
+POST http://localhost:3001/api/persons/
 Content-Type: application/json
 
 {
