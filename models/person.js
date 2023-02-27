@@ -25,7 +25,7 @@ const personSchema = new mongoose.Schema({
     minLength: 8,
     validate: {
       validator: function (v) {
-        return /^[0-9]{2,3}[-]?\d/.test(v)
+        return /^\d{2,3}[-]?\d+$/.test(v)
       },
       message: 'Number is not valid'
     },
